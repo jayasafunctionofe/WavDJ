@@ -15,16 +15,22 @@ Internally the main processor (unknown: 005-8223M4-31 08) communicates to a subb
 
 *Din2 is shorted to ground*
 
+
 ## RJ45 Pinout
 
-    1 - CTS (DE-9 Pin 8)
-    2 - RTS (DE-9 Pin 7)
-    3 - RD (DE-9 Pin 2)
-    4 - TD (DE-9 Pin 3)
-    5 - GND (DE-9 Pin 5 or PS/2 Pin 3) ??
-    6 - GND (DE-9 Pin 5 or PS/2 Pin 3) ??
-    7 - 5VDC (PS/2 Pin 4)
-    8 - 5VDC (PS/2 Pin 4)
+The cable that comes with the VM-108 appears to be a Y cable with RJ-45 on one end and a DE-9 + PS/2 keyboard passthrough connector.
+
+| RJ-45 Pin | Purpose | Cable Pin | 
+| --------- | ------- | --------- | 
+| 1 | CTS | DE-9 Pin 8 |
+| 2 | RTS | DE-9 Pin 7 |
+| 3 | RD | DE-9 Pin 2 |
+| 4 | TD | DE-9 Pin 3 |
+| 5 | GND | DE-9 Pin 5 or PS/2 Pin 3 |
+| 6 | GND | DE-9 Pin 5 or PS/2 Pin 3 |
+| 7 | 5VDC | PS/2 Pin 4 |
+| 8 | 5VDC | PS/2 Pin 4 |
+
 
 ## Labeled photo of RS232 Sub board
 ![Labeled RS232 Photo](./RS232BoardLabeled.png?raw=true "Labeled Photo")
